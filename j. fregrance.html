@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Fashion</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="CSS/bootstrap.css">
+  <link rel="stylesheet" href="CSS/cards.css">
+  <link rel="stylesheet" href="CSS/nav.css">
+  <link rel="stylesheet" href="compare.html">
+  <style>
+    .link{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+  </style>
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="logo" src="images/First fashion.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img class="logo"
+                        src="images/First fashion.png" alt=""></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          Brands
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="gucci.html">Gucci</a></li>
+                          <li><a class="dropdown-item" href="lv.html">Louis Vuitton</a></li>
+                          <li><a class="dropdown-item" href="j. fregrance.html">Junaid Jamshed</a></li>
+                        </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <div class="icons">
+                        <i class='bx bx-shopping-bag'></i>
+                        <a href="login.html"><i class='bx bx-user'></a></i>
+                        <i class='bx bx-search'></i>
+                        <a href="compare.html"><i class='bx bx-git-compare'></i></a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="carousel-item active">
+    <img src="images/jjjjj.png" class="d-block w-100" alt="...">
+  </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (1).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Bloom</h5>
+                  <p class="card-text">$99<span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Bloom', 'J.', '$99.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (10).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Komal</h5>
+                  <p class="card-text">$74<span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Komal', 'J.', '$74.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (11).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Edge</h5>
+                  <p class="card-text">$81 <span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Edge', 'J.', '$81.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (12).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Man</h5>
+                  <p class="card-text">$72<span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Man', 'J.', '$72.00', 'Perfum')">Compare</button>
+                    </div>
+                
+          
+            </div>
+        </div>
+        <!-- row compelete 1 -->
+         <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (13).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>Bag</h6>
+                  <h5 class="card-title">Rhythm</h5>
+                  <p class="card-text">$72<span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Rhythm', 'J.', '$72.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (14).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Mika</h5>
+                  <p class="card-text">$96<span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Mika', 'J.', '$96.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (15).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Oud Al Junaid</h5>
+                  <p class="card-text">$114<span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Oud Al Junaid', 'J.', '$114.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (16).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Fency</h5>
+                  <p class="card-text">$98<span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Fency', 'J.', '$98.00', 'Perfum')">Compare</button>
+                    </div>
+                
+          
+            </div>
+        </div>
+    </div>
+        <!-- row compelete 2 -->
+         <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (17).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Rhythm Spray</h5>
+                  <p class="card-text">$56 <span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Rhythm Spray', 'J.', '$56.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (2).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Wasim Akram 4T4</h5>
+                  <p class="card-text">$107 <span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Wasim Akram 4T4', 'J.', '$107.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (3).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Addicted</h5>
+                  <p class="card-text">$114 <span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Addicted', 'J.', '$114.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (4).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">112</h5>
+                  <p class="card-text">$105 <span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('J.', 'J.', '$105.00', 'Perfum')">Compare</button>
+                    </div>
+                
+          
+            </div>
+        </div>
+        </div>
+        <!-- row compelete 3 -->
+         <div class="continer">
+        <div class="row">
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (5).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Komal (Limited)</h5>
+                  <p class="card-text">$78<span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Komal (Limited)', 'J.', '$78.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (6).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Breeze</h5>
+                  <p class="card-text">$80<span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Breeze', 'J.', '$80.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (7).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Exclusive</h5>
+                  <p class="card-text">$89 <span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Exclusive', 'J.', '$89.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (8).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Intenso</h5>
+                  <p class="card-text">$59 <span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Intenso', 'J.', '$59.00', 'Perfum')">Compare</button>
+                    </div>
+            </div>
+        </div>
+        </div>
+        <!-- row compelete 4 -->
+         <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row1 (9).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Mika Spray</h5>
+                  <p class="card-text">$48 <span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Mika Spray', 'J.', '$48.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row5 (2).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Uroosa</h5>
+                  <p class="card-text">$59 <span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Uroosa', 'J.', '$59.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row5 (3).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Vocal</h5>
+                  <p class="card-text">$110 <span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Vocal', 'J.', '$110.00', 'Perfum')">Compare</button>
+                    </div>
+                </div>
+          
+            </div>
+            <div class="col-xl-3 col-lg-6 col-sm-6">
+                <img src="images/j. row5 (4).jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h6>j.</h6>
+                  <h5 class="card-title">Wasim Akram 502</h5>
+                  <p class="card-text">$103 <span class="float-end star-rating">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i></span></p>
+                    <div class="d-grid">
+                        <a href="#" class="btn btn-outline-dark " onclick="function1()">Add To Cart</a>
+                        <button class="btn btn-outline-dark" onclick="addtocompare('Wasim Akram 502', 'J.', '$103.00', 'Perfum')">Compare</button>
+                    </div>
+                
+          
+            </div>
+        </div>
+        </div>
+        <!-- row compelete 5 -->
+        
+    </div>
+    <section class="news py-5">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-lg-9 m-auto text-center">
+              <h1>Stay with us For More</h1>
+              <input type="email" class="px-3" placeholder="Enter You Email">
+              <button class="btn2" onclick="function2()">Submit</button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-11">
+            <div class="row">
+              <div class="col-lg-3">
+                <h3 class="pb-3">FIRST FASHION</h5>
+                  <p>Welcome to our fashion destination, where style meets sophistication. Whether you're looking for
+                    timeless
+                    classics, edgy streetwear, or glamorous evening wear, our curated collections have something for every
+                    fashion lover.</p><br>
+              </div>
+              <div class="col-lg-3">
+                <h3 class="pb-3">UseFul Link</h5>
+                  <a href="index.html" style="text-decoration: none; color: white;"><p>Home</p></a>
+                  <a href="about.html" style="text-decoration: none; color: white;"><p>About Us</p></a>
+                  <a href="contact.html" style="text-decoration: none; color: white;"><p>Contact Us</p></a>
+                  <a href="faq.html" style="text-decoration: none; color: white;"><p>FAQ</p></a>
+              </div>
+              <div class="col-lg-3">
+                <h3 class="pb-3">CONTACT INFO</h5>
+                  <p><b>Head Office:</b> D - 4 Block H north Nazimabad Town karachi, karachi City,</p><br>
+                  <p class="info">+92 36620102</p><br>
+                  <p class="info">info@firstfashion.com</p><br>
+              </div>
+              <div class="col-lg-3">
+                <h3 class="pb-3">SOCIAL MEDIA</h5>
+                  <span class='link'><i class='bx bxl-facebook-circle'></i></span>
+                  <span class='link'><i class='bx bxl-instagram-alt'></i></span>
+                  <span class='link'><i class='bx bxl-twitter' ></i></span>
+                  <span class='link'><i class='bx bxl-google-plus-circle' ></i></span>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <p class="text-center">Copyright © 2025 first fashion. All Rights Reserved.</p>
+        </div>
+      </section>
+</body>
+<script src="JS/compare.js"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+<script src="JS/bootstrap.bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function function1()
+    {
+        Swal.fire({
+  title: "Added To Cart",
+  text: "Keep Shopping",
+  icon: "success"
+});
+    }
+    function function2()
+    {
+        Swal.fire({
+  title: "Sumitted Successfully",
+  text: "Thanks For Your Feedback",
+  icon: "success"
+});
+    }
+</script>
+
+</html>

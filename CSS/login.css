@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/foam.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.login-box{
+    position: absolute;
+    width: 400px;
+    padding: 15px;
+    /* border: 2px solid black; */
+    border-radius: 30px;
+    /* background-color: rgba(226, 226, 226, 0.614);
+    box-shadow: 0 10px 10px rgb(0, 0, 0, 1); */
+}
+.login-box form{
+    width: 100%;
+    padding: 0 50px;
+}
+h2{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    margin: 25px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgb(220, 220, 220);
+    outline: none;
+    border-radius: 40px;
+    font-size: 1em;
+    color: black;
+    transition: .5s ease;
+    padding: 0 20px;
+}
+.input-box input:focus,
+.input-box input:valid{
+    border-color: black;
+}
+
+.input-box label{
+    position: absolute;
+    top:50%;
+    left: 20px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    pointer-events: none;
+    transition: .5s ease;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: 1px;
+    font-size: .8em;
+    background: rgb(176, 176, 176);
+    padding: 0 6px;
+    color: black;
+}
+.forgot-pass{
+    margin: -15px 0 10px;
+    text-align: center;
+}
+.forgot-pass a{
+    font-size: .85em;
+    color: black;
+    text-decoration: none;
+}
+.forgot-pass a:hover{
+    text-decoration: underline;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor:pointer;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.btn:hover{
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+}
+.signup-link{
+    margin: 20px;
+    text-align: center;
+}
+.signup-link a{
+    font-size: 1em;
+    color: gray;
+    text-decoration: none;
+    font-weight: 600;
+}
+.signup-link a:hover{
+    text-decoration:underline;
+}
+

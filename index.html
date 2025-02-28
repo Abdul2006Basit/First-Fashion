@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Fashion</title>
+  <link rel="icon" href="images/First fashion.png">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="CSS/bootstrap.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/nav.css">
+  <style>
+    .link{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+  </style>
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="logo" src="images/First fashion.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img class="logo" src="images/First fashion.png" alt="">
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Brands
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="gucci.html">Gucci</a></li>
+                <li><a class="dropdown-item" href="lv.html">Louis Vuitton</a></li>
+                <li><a class="dropdown-item" href="j. fregrance.html">Junaid Jamshed</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <div class="icons">
+              <i class='bx bx-shopping-bag'></i>
+              <a href="login.html"><i class='bx bx-user'></a></i>
+              <i class='bx bx-search'></i>
+              <a href="compare.html"><i class='bx bx-git-compare'></i></a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <section class="main">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-lg-7 pt-5 text-center">
+          <h1 class="pt-5">First Fashion <br> Welcomes You</h1>
+          <p>Fashion is a dynamic and ever-evolving form of self-expression that reflects culture, identity, and
+            personal style. It encompasses a wide range of clothing, accessories, and trends, often influenced by
+            historical, social, and artistic movements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="new">
+    <div class="container py-5">
+      <div class="row pt-5">
+        <div class="col-lg-7 m-auto">
+          <div class="row text-center">
+            <div class="col-lg-4">
+              <img src="images/bag.png" class="img-luid" alt="">
+              <h6>Bags</h6>
+            </div>
+            <div class="col-lg-4">
+              <img src="images/belt.png" class="img-luid" alt="">
+              <h6>Belts</h6>
+            </div>
+            <div class="col-lg-4">
+              <img src="images/fragrance.png" class="img-luid" alt="">
+              <h6>Fragrances</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="product">
+    <div class="container py-5">
+      <div class="row py-5">
+        <div class="col-g-5 m-auto text-center">
+          <h1>Brands</h1>
+          <h6 style="color: gray;">Wear Classis</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 text-center">
+          <div class="card border-0 bg-light mb-2">
+            <div class="card-body">
+              <img src="images/lv logo.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <h6>Louis Vuitton</h6>
+          <button class="btn1"><a href="lv.html" style="text-decoration: none; color: white;">See More</a></button>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="card border-0 bg-light mb-2">
+            <div class="card-body">
+              <img src="images/gucci logo.avif" class="img-fluid" alt="">
+            </div>
+          </div>
+          <h6>Gucci</h6>
+          <button class="btn1"><a href="gucci.html" style="text-decoration: none; color: white;">See More</a></button>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="card border-0 bg-light mb-2">
+            <div class="card-body">
+              <img src="images/profile-image.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+          <h6>Junaid Jamshed</h6>
+          <button class="btn1"><a href="j. fregrance.html" style="text-decoration: none; color: white;">See
+              More</a></button>
+        </div>
+      </div>
+  </section>
+
+
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/gucci.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/carosel.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/jjjjj.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="news py-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-9 m-auto text-center">
+          <h1>Stay with us For More</h1>
+          <input type="email" class="px-3" placeholder="Enter You Email">
+          <button class="btn2" onclick="function2()">Submit</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-11">
+        <div class="row">
+          <div class="col-lg-3">
+            <h3 class="pb-3">FIRST FASHION</h5>
+              <p>Welcome to our fashion destination, where style meets sophistication. Whether you're looking for
+                timeless
+                classics, edgy streetwear, or glamorous evening wear, our curated collections have something for every
+                fashion lover.</p><br>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="pb-3">UseFul Link</h5>
+              <a href="index.html" style="text-decoration: none; color: white;"><p>Home</p></a>
+              <a href="about.html" style="text-decoration: none; color: white;"><p>About Us</p></a>
+              <a href="contact.html" style="text-decoration: none; color: white;"><p>Contact Us</p></a>
+              <a href="faq.html" style="text-decoration: none; color: white;"><p>FAQ</p></a>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="pb-3">CONTACT INFO</h5>
+              <p><b>Head Office:</b> D - 4 Block H north Nazimabad Town karachi, karachi City,</p><br>
+              <p class="info">+92 36620102</p><br>
+              <p class="info">info@firstfashion.com</p><br>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="pb-3">SOCIAL MEDIA</h5>
+              <span class='link'><i class='bx bxl-facebook-circle'></i></span>
+              <span class='link'><i class='bx bxl-instagram-alt'></i></span>
+              <span class='link'><i class='bx bxl-twitter' ></i></span>
+              <span class='link'><i class='bx bxl-google-plus-circle' ></i></span>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center">Copyright © 2025 first fashion. All Rights Reserved.</p>
+    </div>
+  </section>
+
+  <script src="JS/bootstrap.bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function function2()
+    {
+        Swal.fire({
+  title: "Sumitted Successfully",
+  text: "Thanks For Your Feedback",
+  icon: "success"
+});
+    }
+</script>
+</body>
+
+</html>

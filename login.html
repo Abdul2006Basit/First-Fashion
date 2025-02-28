@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Fashion</title>
+    <link rel="icon" href="images/First fashion.png">
+    <link rel="stylesheet" href="CSS/login.css">
+    <style>
+        span{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h2>Login</h2>
+      
+            <div class="input-box">
+                <input type="email"  id="email">
+                <label for="">Email</label>
+                <span id="emailerror"></span><br><br>
+
+            </div>
+
+            <div class="input-box">
+                <input type="password" id="password">
+                <label for="">Password</label>
+                <span id="passerror"></span><br><br>
+            </div>
+            
+            <div class="forgot-pass">
+                <a href="#">Forgot Your Password?</a>
+            </div>
+            <button type="submit" class="btn" onclick="validation()">Login</button>
+            <div class="signup-link">
+                <a href="signup.html">SignUp</a>
+            </div>
+        
+    </div>
+</div>
+
+<script>
+    function validation(){
+
+let email = document.getElementById("email").value;
+let password = document.getElementById("password").value;
+
+let passregex = /.{8,}/;
+let emailregex = /\w+@[a-z]+\.[a-z]{2,4}[\.[a-z]+]?/;
+if(email == ""|| password == ""|| !email.test(emailregex) || !password.test(passregex)){
+   
+    if(email == ""){
+        document.getElementById("emailerror").innerText = "Must Enter your Email Address";
+
+    }else if(!email.test(emailregex)){
+        document.getElementById("emailerror").innerText = "Invalid Email";
+
+    }else{
+        document.getElementById("emailerror").innerText = "";
+
+    }
+    if(password == ""){
+        document.getElementById("passerror").innerText = "Must Enter your Password";
+
+    }else if(!password.test(passregex)){
+        document.getElementById("passerror").innerText = "Your password contain atleast 8 characters";
+
+    }else{
+        document.getElementById("passerror").innerText = "";
+
+    }
+    
+   
+}else{
+    location.href = "index.html";
+
+}
+}
+</script>
+
+    
+</body>
+</html>

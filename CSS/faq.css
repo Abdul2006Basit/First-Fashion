@@ -1,0 +1,157 @@
+body {
+    background-color: #f1f1f1;
+    color: #333;
+}
+header {
+    background: url(../images/foam.jpg);
+    padding: 30px;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0 10px 10px rgb(0, 0, 0, 1);
+    text-transform: uppercase;
+    /* -webkit-background-clip: text;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+h1 {
+    margin-top: 110px;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.faq-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+.faq-question {
+    background-color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+}
+
+.faq-question:hover {
+    transform: translateY(-5px);
+}
+
+.faq-question h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.faq-answer {
+    display: none;
+    padding: 15px;
+    background-color: #fafafa;
+    border-left: 4px solid #ff6f61;
+    border-radius: 0 0 8px 8px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+    animation: fadeIn 0.3s ease;
+}
+
+.icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: gray;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .faq-container {
+        padding: 0 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .faq-question h3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    .faq-question h3 {
+        font-size: 1rem;
+    }
+}
+.news{
+    background-color: gray;
+    color: white;
+}
+.btn2{
+    height: 45.8px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.btn2:hover{
+    background-color: rgb(0, 0, 0); 
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: gray;
+    color: black;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news::placeholder{
+    color: white;
+}
+.news p{
+    margin: 0;
+}
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+.row h3{
+    cursor: pointer;
+}
+.row p{
+    cursor: pointer;
+}
+.row .info:hover{
+    color: black;
+}
+.row .fab:hover{
+    color: black;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Fashion</title>
+    <link rel="icon" href="images/First fashion.png">
+    <link rel="stylesheet" href="CSS/sign.css">
+    <style>
+        span{
+            color:red;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="form">
+        <label for="name">First Name</label>
+        <input type="text" id="fname" placeholder="Enter your first name" required>
+        <span id="ferror"></span><br><br>
+        <label for="name">Last name</label>
+        <input type="text" id="lname" placeholder="Enter your last name" required>
+        <span id="lerror"></span><br><br>
+
+        <label for="">Your Email</label>
+        <input type="email" id="email" required placeholder="Your email">
+        <span id="emailerror"></span><br><br>
+
+        <!-- <label for="">Date of Birth</label>
+        <input type="date" placeholder="Your date of birth" required><br><br> -->
+        <label for="">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+        <span id="passerror"></span><br><br>
+
+        <label for="">Confirm Password</label>
+        <input type="password" name="" id="confirmpassword" required placeholder="Confirm password"> 
+        <span id="conerror"></span><br><br> 
+
+        <input type="submit" onclick="validation()">
+        <input type="reset">
+    </div>
+  
+    <script>
+        function validation(){
+    let fname =  document.getElementById("fname").value;
+    let lname = document.getElementById("lname").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    let confirmpassword = document.getElementById("confirmpassword").value;
+    let passregex = /.{8,}/;
+    let emailregex = /\w+@[a-z]+\.[a-z]{2,4}[\.[a-z]+]?/;
+    if(fname == "" || lname == "" || email == ""|| password == "" || confirmpassword == "" || !email.test(emailregex) || !password.test(passregex)){
+        if(fname == ""){
+            document.getElementById("ferror").innerText = "Must Enter your First Name";
+        }else{
+            document.getElementById("ferror").innerText = "";
+    
+        }
+        if(lname == ""){
+            document.getElementById("lerror").innerText = "Must Enter your Last Name";
+    
+        }else{
+            document.getElementById("lerror").innerText = "";
+    
+        }
+        if(email == ""){
+            document.getElementById("emailerror").innerText = "Must Enter your Email Address";
+
+        }else if(!email.test(emailregex)){
+            document.getElementById("emailerror").innerText = "Invalid Email";
+
+        }else{
+            document.getElementById("emailerror").innerText = "";
+
+        }
+        if(password == ""){
+            document.getElementById("passerror").innerText = "Must Enter your Password";
+
+        }else if(!password.test(passregex)){
+            document.getElementById("passerror").innerText = "Your password contain atleast 8 characters";
+
+        }else{
+            document.getElementById("passerror").innerText = "";
+
+        }
+        if(confirmpassword == ""){
+            document.getElementById("conerror").innerText = "Re-enter your password";
+        }else if (password != confirmpassword){
+            document.getElementById("conerror").innerText = "Password does'nt match";
+
+        }else{
+            document.getElementById("conerror").innerText = "";
+
+        }
+       
+    }else{
+        location.href = "login.html";
+
+    }
+}
+    </script>
+    
+    
+</body>
+
+</html>

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First Fashion</title>
+  <link rel="icon" href="images/First fashion.png">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="CSS/bootstrap.css">
+  <link rel="stylesheet" href="CSS/contact.css">
+  <link rel="stylesheet" href="CSS/nav.css">
+  <style>
+    .link{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
+  </style>
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img class="logo" src="images/First fashion.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img class="logo" src="images/First fashion.png" alt="">
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Brands
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="gucci.html">Gucci</a></li>
+                <li><a class="dropdown-item" href="lv.html">Louis Vuitton</a></li>
+                <li><a class="dropdown-item" href="j. fregrance.html">Junaid Jamshed</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="faq.html">FAQ</a>
+            </li>
+            <div class="icons">
+              <i class='bx bx-shopping-bag'></i>
+              <a href="login.html"><i class='bx bx-user'></a></i>
+              <i class='bx bx-search'></i>
+              <a href="compare.html"><i class='bx bx-git-compare'></i></a>
+          </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+    
+  <header>
+    <div class="container">
+        <h1>Contact Us</h1>
+    </div>
+</header>
+
+<section id ="contact-us" >
+  <div class="container">
+    <h1 class="text-black text-center mt-5" style="font-family: serif; font-size: 50px;">Get in Touch With Us</h1>
+
+<form class="p-5">
+
+  <div class="row my-3">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" placeholder="Enter your email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" placeholder="Enter your password" class="form-control" id="exampleInputPassword1">
+    we'll never share your password with anyone else.
+    </div>
+
+  <div class="row g-3">
+    <div class="col-sm-7">
+      <input type="text" class="form-control" placeholder="City" aria-label="City">
+    </div>
+    <div class="col-sm">
+      <input type="text" class="form-control" placeholder="State" aria-label="State">
+    </div>
+    <div class="col-sm">
+      <input type="text" class="form-control" placeholder="Zip" aria-label="Zip">
+    </div>
+  </div>
+
+
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary" onclick="function1()">Submit</button>
+</form>
+  </div>
+  
+
+  <iframe src="https://www.google.com/maps?ll=24.926879,67.034748&z=10&t=m&hl=en&gl=US&mapclient=embed&cid=10652712863829436544" style="margin-left: 10%; width: 80%; height: 600px;" frameborder="0"></iframe>
+
+  <section class="news py-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-9 m-auto text-center">
+          <h1>Stay with us For More</h1>
+          <input type="email" class="px-3" placeholder="Enter You Email">
+          <button class="btn2" onclick="function2()">Submit</button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-11">
+        <div class="row">
+          <div class="col-lg-3">
+            <h3 class="pb-3">FIRST FASHION</h5>
+              <p>Welcome to our fashion destination, where style meets sophistication. Whether you're looking for
+                timeless
+                classics, edgy streetwear, or glamorous evening wear, our curated collections have something for every
+                fashion lover.</p><br>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="pb-3">UseFul Link</h5>
+              <a href="index.html" style="text-decoration: none; color: white;"><p>Home</p></a>
+              <a href="about.html" style="text-decoration: none; color: white;"><p>About Us</p></a>
+              <a href="contact.html" style="text-decoration: none; color: white;"><p>Contact Us</p></a>
+              <a href="faq.html" style="text-decoration: none; color: white;"><p>FAQ</p></a>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="pb-3">CONTACT INFO</h5>
+              <p><b>Head Office:</b> D - 4 Block H north Nazimabad Town karachi, karachi City,</p><br>
+              <p class="info">+92 36620102</p><br>
+              <p class="info">info@firstfashion.com</p><br>
+          </div>
+          <div class="col-lg-3">
+            <h3 class="pb-3">SOCIAL MEDIA</h5>
+              <span class='link'><i class='bx bxl-facebook-circle'></i></span>
+              <span class='link'><i class='bx bxl-instagram-alt'></i></span>
+              <span class='link'><i class='bx bxl-twitter' ></i></span>
+              <span class='link'><i class='bx bxl-google-plus-circle' ></i></span>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center">Copyright © 2025 first fashion. All Rights Reserved.</p>
+    </div>
+  </section>
+   <script src="JS/contact.js"></script>
+   <script src="JS/bootstrap.bundle.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    function function1()
+    {
+        Swal.fire({
+  title: "Thank You For Contacting Us",
+  text: "You Will Get Our Reply In Between 12 Hours",
+  icon: "success"
+});
+    }
+    function function2()
+    {
+        Swal.fire({
+  title: "Sumitted Successfully",
+  text: "Thanks For Your Feedback",
+  icon: "success"
+});
+    }
+</script>
+</body>
+</html>

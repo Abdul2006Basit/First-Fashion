@@ -1,0 +1,33 @@
+.main{
+    background: url(../images/foam.jpg);
+}
+.main h1{
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(158, 158, 158);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: rgb(55, 52, 53);
+    transition: 0.5s;
+}
+h1{
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+cursor: pointer;
+}

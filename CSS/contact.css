@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: url(../images/foam.jpg);
+}
+header {
+    background: url(../images/foam.jpg);
+    padding: 50px;
+    margin-top: 100px;
+    font-family: serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0 10px 10px rgb(0, 0, 0, 1);
+    text-transform: uppercase;
+    /* -webkit-background-clip: text;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+ .contact{
+    position: relative;
+    /* margin-top: 250px; */
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+}
+/*.contact .content{
+    max-width: 800px;
+    text-align: center;
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+.contact .content p{
+    font-weight: 300;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactInfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactInfo .box{
+    position: relative;
+    padding: 20px 0;
+} */
